@@ -1,0 +1,6 @@
+{
+  "name": "Competitor Intelligence Suite",
+  "description": "Multi-step competitor intelligence platform to analyze performance across tracks, locations, and time periods.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

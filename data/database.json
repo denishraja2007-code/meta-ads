@@ -1,0 +1,2789 @@
+{
+  "users": [
+    {
+      "id": "usr-default",
+      "email": "denishraja011@gmail.com",
+      "name": "Intelligence Officer"
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp-optivaone",
+      "name": "OptivaOne",
+      "track": "Retail & Footwear",
+      "socialLinks": {
+        "instagram": "https://instagram.com/optivaone",
+        "facebook": "https://facebook.com/optivaone",
+        "website": "https://optivaone.io",
+        "linkedin": "https://linkedin.com/company/optivaone"
+      },
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "comp-strategypulse",
+      "name": "StrategyPulse AI",
+      "track": "MarTech & Competitive Intelligence",
+      "socialLinks": {
+        "instagram": "https://instagram.com/strategypulse",
+        "facebook": "https://facebook.com/strategypulseai",
+        "website": "https://strategypulse.ai",
+        "linkedin": "https://linkedin.com/company/strategypulse"
+      },
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "comp-novaathletics",
+      "name": "Nova Athletics",
+      "track": "Activewear & Athletic Shoes",
+      "socialLinks": {
+        "instagram": "https://instagram.com/novaathletics",
+        "website": "https://novaathletics.com",
+        "linkedin": "https://linkedin.com/company/nova-athletics"
+      },
+      "createdAt": "2026-09-10T00:00:00.000Z",
+      "updatedAt": "2026-09-27T00:00:00.000Z"
+    },
+    {
+      "id": "comp-solstice",
+      "name": "Solstice Skincare",
+      "track": "Health & Beauty Direct",
+      "socialLinks": {
+        "instagram": "https://instagram.com/solsticeskincare",
+        "facebook": "https://facebook.com/solsticeskin",
+        "website": "https://solsticeskin.co"
+      },
+      "createdAt": "2026-09-15T00:00:00.000Z",
+      "updatedAt": "2026-09-27T00:00:00.000Z"
+    }
+  ],
+  "reportingPeriods": [
+    {
+      "id": "p-today",
+      "code": "Today",
+      "label": "Today",
+      "days": 1,
+      "description": "Past 24 hours live tracking"
+    },
+    {
+      "id": "p-week",
+      "code": "Last Week",
+      "label": "Last Week",
+      "days": 7,
+      "description": "Past 7 days performance metrics"
+    },
+    {
+      "id": "p-month",
+      "code": "Monthly",
+      "label": "Monthly",
+      "days": 30,
+      "description": "Last 30 days consolidated analytics"
+    },
+    {
+      "id": "p-year",
+      "code": "Annual",
+      "label": "Annual",
+      "days": 365,
+      "description": "Trailing 12 months comprehensive overview"
+    }
+  ],
+  "analyticsRecords": [
+    {
+      "id": "an-comp-optivaone-today",
+      "companyId": "comp-optivaone",
+      "companyName": "OptivaOne",
+      "track": "Retail & Footwear",
+      "period": "Today",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.976Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 6,
+      "averageEngagement": 424,
+      "engagementRate": 5,
+      "postingFrequency": "6 posts today",
+      "engagementGrowth": 25.2,
+      "audienceTotal": 69200,
+      "bestPost": {
+        "title": "OptivaOne Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "posts": 2
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "likes": 277,
+          "comments": 25,
+          "shares": 26,
+          "saves": 12,
+          "overallEngagement": 340
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "likes": 230,
+          "comments": 61,
+          "shares": 15,
+          "saves": 30,
+          "overallEngagement": 336
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "likes": 183,
+          "comments": 42,
+          "shares": 42,
+          "saves": 23,
+          "overallEngagement": 290
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "likes": 456,
+          "comments": 78,
+          "shares": 31,
+          "saves": 16,
+          "overallEngagement": 581
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "likes": 409,
+          "comments": 59,
+          "shares": 20,
+          "saves": 34,
+          "overallEngagement": 522
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "likes": 362,
+          "comments": 40,
+          "shares": 47,
+          "saves": 27,
+          "overallEngagement": 476
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 1917,
+          "percentage": 75,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 305,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 181,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 142,
+          "percentage": 6,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Today interval, OptivaOne sustained an average engagement rate of 5% across 6 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +25.2% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-optivaone-last week",
+      "companyId": "comp-optivaone",
+      "companyName": "OptivaOne",
+      "track": "Retail & Footwear",
+      "period": "Last Week",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.977Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 29,
+      "averageEngagement": 105,
+      "engagementRate": 5.4,
+      "postingFrequency": "4.1 posts/day",
+      "engagementGrowth": 12,
+      "audienceTotal": 74000,
+      "bestPost": {
+        "title": "OptivaOne Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "posts": 3
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "likes": 376,
+          "comments": 25,
+          "shares": 19,
+          "saves": 31,
+          "overallEngagement": 451
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "likes": 329,
+          "comments": 61,
+          "shares": 46,
+          "saves": 24,
+          "overallEngagement": 460
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "likes": 282,
+          "comments": 42,
+          "shares": 35,
+          "saves": 17,
+          "overallEngagement": 376
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "likes": 235,
+          "comments": 78,
+          "shares": 24,
+          "saves": 10,
+          "overallEngagement": 347
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "likes": 188,
+          "comments": 59,
+          "shares": 51,
+          "saves": 28,
+          "overallEngagement": 326
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "likes": 461,
+          "comments": 40,
+          "shares": 40,
+          "saves": 21,
+          "overallEngagement": 562
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "likes": 414,
+          "comments": 76,
+          "shares": 29,
+          "saves": 14,
+          "overallEngagement": 533
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 2285,
+          "percentage": 75,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 381,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 244,
+          "percentage": 8,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 145,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Last Week interval, OptivaOne sustained an average engagement rate of 5.4% across 29 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +12% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-optivaone-monthly",
+      "companyId": "comp-optivaone",
+      "companyName": "OptivaOne",
+      "track": "Retail & Footwear",
+      "period": "Monthly",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:34:00.388Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 24,
+      "averageEngagement": 113,
+      "engagementRate": 5.2,
+      "postingFrequency": "0.8 posts/day",
+      "engagementGrowth": 9.6,
+      "audienceTotal": 71600,
+      "bestPost": {
+        "title": "OptivaOne Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "posts": 4
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "likes": 303,
+          "comments": 43,
+          "shares": 36,
+          "saves": 18,
+          "overallEngagement": 400
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "likes": 256,
+          "comments": 24,
+          "shares": 25,
+          "saves": 11,
+          "overallEngagement": 316
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "likes": 209,
+          "comments": 60,
+          "shares": 52,
+          "saves": 29,
+          "overallEngagement": 350
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "likes": 482,
+          "comments": 41,
+          "shares": 41,
+          "saves": 22,
+          "overallEngagement": 586
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "likes": 435,
+          "comments": 77,
+          "shares": 30,
+          "saves": 15,
+          "overallEngagement": 557
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "likes": 388,
+          "comments": 58,
+          "shares": 19,
+          "saves": 33,
+          "overallEngagement": 498
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 2073,
+          "percentage": 77,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 303,
+          "percentage": 11,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 203,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 128,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Monthly interval, OptivaOne sustained an average engagement rate of 5.2% across 24 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +9.6% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-optivaone-annual",
+      "companyId": "comp-optivaone",
+      "companyName": "OptivaOne",
+      "track": "Retail & Footwear",
+      "period": "Annual",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.979Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 47,
+      "averageEngagement": 115,
+      "engagementRate": 5.1,
+      "postingFrequency": "0.1 posts/day",
+      "engagementGrowth": 8.4,
+      "audienceTotal": 70400,
+      "bestPost": {
+        "title": "OptivaOne Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2025-10-27",
+          "label": "Oct",
+          "posts": 5
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Nov",
+          "posts": 2
+        },
+        {
+          "date": "2025-12-27",
+          "label": "Dec",
+          "posts": 4
+        },
+        {
+          "date": "2026-01-27",
+          "label": "Jan",
+          "posts": 6
+        },
+        {
+          "date": "2026-02-27",
+          "label": "Feb",
+          "posts": 3
+        },
+        {
+          "date": "2026-03-27",
+          "label": "Mar",
+          "posts": 5
+        },
+        {
+          "date": "2026-04-27",
+          "label": "Apr",
+          "posts": 2
+        },
+        {
+          "date": "2026-05-27",
+          "label": "May",
+          "posts": 4
+        },
+        {
+          "date": "2026-06-27",
+          "label": "Jun",
+          "posts": 6
+        },
+        {
+          "date": "2026-07-27",
+          "label": "Jul",
+          "posts": 3
+        },
+        {
+          "date": "2026-08-27",
+          "label": "Aug",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep",
+          "posts": 2
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2025-10-27",
+          "label": "Oct",
+          "likes": 252,
+          "comments": 38,
+          "shares": 21,
+          "saves": 32,
+          "overallEngagement": 343
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Nov",
+          "likes": 205,
+          "comments": 74,
+          "shares": 48,
+          "saves": 25,
+          "overallEngagement": 352
+        },
+        {
+          "date": "2025-12-27",
+          "label": "Dec",
+          "likes": 478,
+          "comments": 55,
+          "shares": 37,
+          "saves": 18,
+          "overallEngagement": 588
+        },
+        {
+          "date": "2026-01-27",
+          "label": "Jan",
+          "likes": 431,
+          "comments": 36,
+          "shares": 26,
+          "saves": 11,
+          "overallEngagement": 504
+        },
+        {
+          "date": "2026-02-27",
+          "label": "Feb",
+          "likes": 384,
+          "comments": 72,
+          "shares": 15,
+          "saves": 29,
+          "overallEngagement": 500
+        },
+        {
+          "date": "2026-03-27",
+          "label": "Mar",
+          "likes": 337,
+          "comments": 53,
+          "shares": 42,
+          "saves": 22,
+          "overallEngagement": 454
+        },
+        {
+          "date": "2026-04-27",
+          "label": "Apr",
+          "likes": 290,
+          "comments": 34,
+          "shares": 31,
+          "saves": 15,
+          "overallEngagement": 370
+        },
+        {
+          "date": "2026-05-27",
+          "label": "May",
+          "likes": 243,
+          "comments": 70,
+          "shares": 20,
+          "saves": 33,
+          "overallEngagement": 366
+        },
+        {
+          "date": "2026-06-27",
+          "label": "Jun",
+          "likes": 196,
+          "comments": 51,
+          "shares": 47,
+          "saves": 26,
+          "overallEngagement": 320
+        },
+        {
+          "date": "2026-07-27",
+          "label": "Jul",
+          "likes": 469,
+          "comments": 32,
+          "shares": 36,
+          "saves": 19,
+          "overallEngagement": 556
+        },
+        {
+          "date": "2026-08-27",
+          "label": "Aug",
+          "likes": 422,
+          "comments": 68,
+          "shares": 25,
+          "saves": 12,
+          "overallEngagement": 527
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep",
+          "likes": 375,
+          "comments": 49,
+          "shares": 52,
+          "saves": 30,
+          "overallEngagement": 506
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 4082,
+          "percentage": 76,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 632,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 400,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 272,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Annual interval, OptivaOne sustained an average engagement rate of 5.1% across 47 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +8.4% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-strategypulse-today",
+      "companyId": "comp-strategypulse",
+      "companyName": "StrategyPulse AI",
+      "track": "MarTech & Competitive Intelligence",
+      "period": "Today",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.980Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 4,
+      "averageEngagement": 616,
+      "engagementRate": 3.7,
+      "postingFrequency": "4 posts today",
+      "engagementGrowth": 15.6,
+      "audienceTotal": 77600,
+      "bestPost": {
+        "title": "StrategyPulse AI Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "posts": 0
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "likes": 368,
+          "comments": 33,
+          "shares": 23,
+          "saves": 33,
+          "overallEngagement": 457
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "likes": 321,
+          "comments": 69,
+          "shares": 50,
+          "saves": 26,
+          "overallEngagement": 466
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "likes": 274,
+          "comments": 50,
+          "shares": 39,
+          "saves": 19,
+          "overallEngagement": 382
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "likes": 227,
+          "comments": 31,
+          "shares": 28,
+          "saves": 12,
+          "overallEngagement": 298
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "likes": 180,
+          "comments": 67,
+          "shares": 17,
+          "saves": 30,
+          "overallEngagement": 294
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "likes": 453,
+          "comments": 48,
+          "shares": 44,
+          "saves": 23,
+          "overallEngagement": 568
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 1823,
+          "percentage": 74,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 298,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 201,
+          "percentage": 8,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 143,
+          "percentage": 6,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Today interval, StrategyPulse AI sustained an average engagement rate of 3.7% across 4 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +15.6% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-strategypulse-last week",
+      "companyId": "comp-strategypulse",
+      "companyName": "StrategyPulse AI",
+      "track": "MarTech & Competitive Intelligence",
+      "period": "Last Week",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.981Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 27,
+      "averageEngagement": 110,
+      "engagementRate": 4.1,
+      "postingFrequency": "3.9 posts/day",
+      "engagementGrowth": 20.4,
+      "audienceTotal": 82400,
+      "bestPost": {
+        "title": "StrategyPulse AI Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "posts": 2
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "likes": 467,
+          "comments": 33,
+          "shares": 16,
+          "saves": 27,
+          "overallEngagement": 543
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "likes": 420,
+          "comments": 69,
+          "shares": 43,
+          "saves": 20,
+          "overallEngagement": 552
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "likes": 373,
+          "comments": 50,
+          "shares": 32,
+          "saves": 13,
+          "overallEngagement": 468
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "likes": 326,
+          "comments": 31,
+          "shares": 21,
+          "saves": 31,
+          "overallEngagement": 409
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "likes": 279,
+          "comments": 67,
+          "shares": 48,
+          "saves": 24,
+          "overallEngagement": 418
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "likes": 232,
+          "comments": 48,
+          "shares": 37,
+          "saves": 17,
+          "overallEngagement": 334
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "likes": 185,
+          "comments": 29,
+          "shares": 26,
+          "saves": 10,
+          "overallEngagement": 250
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 2282,
+          "percentage": 77,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 327,
+          "percentage": 11,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 223,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 142,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Last Week interval, StrategyPulse AI sustained an average engagement rate of 4.1% across 27 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +20.4% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-strategypulse-monthly",
+      "companyId": "comp-strategypulse",
+      "companyName": "StrategyPulse AI",
+      "track": "MarTech & Competitive Intelligence",
+      "period": "Monthly",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.982Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 23,
+      "averageEngagement": 113,
+      "engagementRate": 3.9,
+      "postingFrequency": "0.8 posts/day",
+      "engagementGrowth": 18,
+      "audienceTotal": 80000,
+      "bestPost": {
+        "title": "StrategyPulse AI Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "posts": 3
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "likes": 394,
+          "comments": 51,
+          "shares": 33,
+          "saves": 14,
+          "overallEngagement": 492
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "likes": 347,
+          "comments": 32,
+          "shares": 22,
+          "saves": 32,
+          "overallEngagement": 433
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "likes": 300,
+          "comments": 68,
+          "shares": 49,
+          "saves": 25,
+          "overallEngagement": 442
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "likes": 253,
+          "comments": 49,
+          "shares": 38,
+          "saves": 18,
+          "overallEngagement": 358
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "likes": 206,
+          "comments": 30,
+          "shares": 27,
+          "saves": 11,
+          "overallEngagement": 274
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "likes": 479,
+          "comments": 66,
+          "shares": 16,
+          "saves": 29,
+          "overallEngagement": 590
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 1979,
+          "percentage": 76,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 296,
+          "percentage": 11,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 185,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 129,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Monthly interval, StrategyPulse AI sustained an average engagement rate of 3.9% across 23 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +18% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-strategypulse-annual",
+      "companyId": "comp-strategypulse",
+      "companyName": "StrategyPulse AI",
+      "track": "MarTech & Competitive Intelligence",
+      "period": "Annual",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.983Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 50,
+      "averageEngagement": 104,
+      "engagementRate": 3.8,
+      "postingFrequency": "0.1 posts/day",
+      "engagementGrowth": 16.8,
+      "audienceTotal": 78800,
+      "bestPost": {
+        "title": "StrategyPulse AI Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2025-10-27",
+          "label": "Oct",
+          "posts": 4
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Nov",
+          "posts": 6
+        },
+        {
+          "date": "2025-12-27",
+          "label": "Dec",
+          "posts": 3
+        },
+        {
+          "date": "2026-01-27",
+          "label": "Jan",
+          "posts": 5
+        },
+        {
+          "date": "2026-02-27",
+          "label": "Feb",
+          "posts": 2
+        },
+        {
+          "date": "2026-03-27",
+          "label": "Mar",
+          "posts": 4
+        },
+        {
+          "date": "2026-04-27",
+          "label": "Apr",
+          "posts": 6
+        },
+        {
+          "date": "2026-05-27",
+          "label": "May",
+          "posts": 3
+        },
+        {
+          "date": "2026-06-27",
+          "label": "Jun",
+          "posts": 5
+        },
+        {
+          "date": "2026-07-27",
+          "label": "Jul",
+          "posts": 2
+        },
+        {
+          "date": "2026-08-27",
+          "label": "Aug",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep",
+          "posts": 6
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2025-10-27",
+          "label": "Oct",
+          "likes": 343,
+          "comments": 46,
+          "shares": 18,
+          "saves": 28,
+          "overallEngagement": 435
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Nov",
+          "likes": 296,
+          "comments": 27,
+          "shares": 45,
+          "saves": 21,
+          "overallEngagement": 389
+        },
+        {
+          "date": "2025-12-27",
+          "label": "Dec",
+          "likes": 249,
+          "comments": 63,
+          "shares": 34,
+          "saves": 14,
+          "overallEngagement": 360
+        },
+        {
+          "date": "2026-01-27",
+          "label": "Jan",
+          "likes": 202,
+          "comments": 44,
+          "shares": 23,
+          "saves": 32,
+          "overallEngagement": 301
+        },
+        {
+          "date": "2026-02-27",
+          "label": "Feb",
+          "likes": 475,
+          "comments": 25,
+          "shares": 50,
+          "saves": 25,
+          "overallEngagement": 575
+        },
+        {
+          "date": "2026-03-27",
+          "label": "Mar",
+          "likes": 428,
+          "comments": 61,
+          "shares": 39,
+          "saves": 18,
+          "overallEngagement": 546
+        },
+        {
+          "date": "2026-04-27",
+          "label": "Apr",
+          "likes": 381,
+          "comments": 42,
+          "shares": 28,
+          "saves": 11,
+          "overallEngagement": 462
+        },
+        {
+          "date": "2026-05-27",
+          "label": "May",
+          "likes": 334,
+          "comments": 78,
+          "shares": 17,
+          "saves": 29,
+          "overallEngagement": 458
+        },
+        {
+          "date": "2026-06-27",
+          "label": "Jun",
+          "likes": 287,
+          "comments": 59,
+          "shares": 44,
+          "saves": 22,
+          "overallEngagement": 412
+        },
+        {
+          "date": "2026-07-27",
+          "label": "Jul",
+          "likes": 240,
+          "comments": 40,
+          "shares": 33,
+          "saves": 15,
+          "overallEngagement": 328
+        },
+        {
+          "date": "2026-08-27",
+          "label": "Aug",
+          "likes": 193,
+          "comments": 76,
+          "shares": 22,
+          "saves": 33,
+          "overallEngagement": 324
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep",
+          "likes": 466,
+          "comments": 57,
+          "shares": 49,
+          "saves": 26,
+          "overallEngagement": 598
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 3894,
+          "percentage": 75,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 618,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 402,
+          "percentage": 8,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 274,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Annual interval, StrategyPulse AI sustained an average engagement rate of 3.8% across 50 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +16.8% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-novaathletics-today",
+      "companyId": "comp-novaathletics",
+      "companyName": "Nova Athletics",
+      "track": "Activewear & Athletic Shoes",
+      "period": "Today",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.984Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 6,
+      "averageEngagement": 439,
+      "engagementRate": 5.5,
+      "postingFrequency": "6 posts today",
+      "engagementGrowth": 13.2,
+      "audienceTotal": 75200,
+      "bestPost": {
+        "title": "Nova Athletics Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "posts": 2
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "likes": 342,
+          "comments": 70,
+          "shares": 51,
+          "saves": 27,
+          "overallEngagement": 490
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "likes": 295,
+          "comments": 51,
+          "shares": 40,
+          "saves": 20,
+          "overallEngagement": 406
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "likes": 248,
+          "comments": 32,
+          "shares": 29,
+          "saves": 13,
+          "overallEngagement": 322
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "likes": 201,
+          "comments": 68,
+          "shares": 18,
+          "saves": 31,
+          "overallEngagement": 318
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "likes": 474,
+          "comments": 49,
+          "shares": 45,
+          "saves": 24,
+          "overallEngagement": 592
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "likes": 427,
+          "comments": 30,
+          "shares": 34,
+          "saves": 17,
+          "overallEngagement": 508
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 1987,
+          "percentage": 75,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 300,
+          "percentage": 11,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 217,
+          "percentage": 8,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 132,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Today interval, Nova Athletics sustained an average engagement rate of 5.5% across 6 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +13.2% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-novaathletics-last week",
+      "companyId": "comp-novaathletics",
+      "companyName": "Nova Athletics",
+      "track": "Activewear & Athletic Shoes",
+      "period": "Last Week",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.985Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 29,
+      "averageEngagement": 109,
+      "engagementRate": 3.9,
+      "postingFrequency": "4.1 posts/day",
+      "engagementGrowth": 18,
+      "audienceTotal": 80000,
+      "bestPost": {
+        "title": "Nova Athletics Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "posts": 3
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "likes": 441,
+          "comments": 70,
+          "shares": 44,
+          "saves": 21,
+          "overallEngagement": 576
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "likes": 394,
+          "comments": 51,
+          "shares": 33,
+          "saves": 14,
+          "overallEngagement": 492
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "likes": 347,
+          "comments": 32,
+          "shares": 22,
+          "saves": 32,
+          "overallEngagement": 433
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "likes": 300,
+          "comments": 68,
+          "shares": 49,
+          "saves": 25,
+          "overallEngagement": 442
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "likes": 253,
+          "comments": 49,
+          "shares": 38,
+          "saves": 18,
+          "overallEngagement": 358
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "likes": 206,
+          "comments": 30,
+          "shares": 27,
+          "saves": 11,
+          "overallEngagement": 274
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "likes": 479,
+          "comments": 66,
+          "shares": 16,
+          "saves": 29,
+          "overallEngagement": 590
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 2420,
+          "percentage": 76,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 366,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 229,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 150,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Last Week interval, Nova Athletics sustained an average engagement rate of 3.9% across 29 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +18% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-novaathletics-monthly",
+      "companyId": "comp-novaathletics",
+      "companyName": "Nova Athletics",
+      "track": "Activewear & Athletic Shoes",
+      "period": "Monthly",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.986Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 24,
+      "averageEngagement": 103,
+      "engagementRate": 3.7,
+      "postingFrequency": "0.8 posts/day",
+      "engagementGrowth": 15.6,
+      "audienceTotal": 77600,
+      "bestPost": {
+        "title": "Nova Athletics Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "posts": 4
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "likes": 368,
+          "comments": 33,
+          "shares": 23,
+          "saves": 33,
+          "overallEngagement": 457
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "likes": 321,
+          "comments": 69,
+          "shares": 50,
+          "saves": 26,
+          "overallEngagement": 466
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "likes": 274,
+          "comments": 50,
+          "shares": 39,
+          "saves": 19,
+          "overallEngagement": 382
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "likes": 227,
+          "comments": 31,
+          "shares": 28,
+          "saves": 12,
+          "overallEngagement": 298
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "likes": 180,
+          "comments": 67,
+          "shares": 17,
+          "saves": 30,
+          "overallEngagement": 294
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "likes": 453,
+          "comments": 48,
+          "shares": 44,
+          "saves": 23,
+          "overallEngagement": 568
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 1823,
+          "percentage": 74,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 298,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 201,
+          "percentage": 8,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 143,
+          "percentage": 6,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Monthly interval, Nova Athletics sustained an average engagement rate of 3.7% across 24 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +15.6% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-novaathletics-annual",
+      "companyId": "comp-novaathletics",
+      "companyName": "Nova Athletics",
+      "track": "Activewear & Athletic Shoes",
+      "period": "Annual",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.987Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 47,
+      "averageEngagement": 117,
+      "engagementRate": 3.6,
+      "postingFrequency": "0.1 posts/day",
+      "engagementGrowth": 14.4,
+      "audienceTotal": 76400,
+      "bestPost": {
+        "title": "Nova Athletics Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2025-10-27",
+          "label": "Oct",
+          "posts": 5
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Nov",
+          "posts": 2
+        },
+        {
+          "date": "2025-12-27",
+          "label": "Dec",
+          "posts": 4
+        },
+        {
+          "date": "2026-01-27",
+          "label": "Jan",
+          "posts": 6
+        },
+        {
+          "date": "2026-02-27",
+          "label": "Feb",
+          "posts": 3
+        },
+        {
+          "date": "2026-03-27",
+          "label": "Mar",
+          "posts": 5
+        },
+        {
+          "date": "2026-04-27",
+          "label": "Apr",
+          "posts": 2
+        },
+        {
+          "date": "2026-05-27",
+          "label": "May",
+          "posts": 4
+        },
+        {
+          "date": "2026-06-27",
+          "label": "Jun",
+          "posts": 6
+        },
+        {
+          "date": "2026-07-27",
+          "label": "Jul",
+          "posts": 3
+        },
+        {
+          "date": "2026-08-27",
+          "label": "Aug",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep",
+          "posts": 2
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2025-10-27",
+          "label": "Oct",
+          "likes": 317,
+          "comments": 28,
+          "shares": 46,
+          "saves": 22,
+          "overallEngagement": 413
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Nov",
+          "likes": 270,
+          "comments": 64,
+          "shares": 35,
+          "saves": 15,
+          "overallEngagement": 384
+        },
+        {
+          "date": "2025-12-27",
+          "label": "Dec",
+          "likes": 223,
+          "comments": 45,
+          "shares": 24,
+          "saves": 33,
+          "overallEngagement": 325
+        },
+        {
+          "date": "2026-01-27",
+          "label": "Jan",
+          "likes": 496,
+          "comments": 26,
+          "shares": 51,
+          "saves": 26,
+          "overallEngagement": 599
+        },
+        {
+          "date": "2026-02-27",
+          "label": "Feb",
+          "likes": 449,
+          "comments": 62,
+          "shares": 40,
+          "saves": 19,
+          "overallEngagement": 570
+        },
+        {
+          "date": "2026-03-27",
+          "label": "Mar",
+          "likes": 402,
+          "comments": 43,
+          "shares": 29,
+          "saves": 12,
+          "overallEngagement": 486
+        },
+        {
+          "date": "2026-04-27",
+          "label": "Apr",
+          "likes": 355,
+          "comments": 24,
+          "shares": 18,
+          "saves": 30,
+          "overallEngagement": 427
+        },
+        {
+          "date": "2026-05-27",
+          "label": "May",
+          "likes": 308,
+          "comments": 60,
+          "shares": 45,
+          "saves": 23,
+          "overallEngagement": 436
+        },
+        {
+          "date": "2026-06-27",
+          "label": "Jun",
+          "likes": 261,
+          "comments": 41,
+          "shares": 34,
+          "saves": 16,
+          "overallEngagement": 352
+        },
+        {
+          "date": "2026-07-27",
+          "label": "Jul",
+          "likes": 214,
+          "comments": 77,
+          "shares": 23,
+          "saves": 34,
+          "overallEngagement": 348
+        },
+        {
+          "date": "2026-08-27",
+          "label": "Aug",
+          "likes": 487,
+          "comments": 58,
+          "shares": 50,
+          "saves": 27,
+          "overallEngagement": 622
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep",
+          "likes": 440,
+          "comments": 39,
+          "shares": 39,
+          "saves": 20,
+          "overallEngagement": 538
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 4222,
+          "percentage": 77,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 567,
+          "percentage": 10,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 434,
+          "percentage": 8,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 277,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Annual interval, Nova Athletics sustained an average engagement rate of 3.6% across 47 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +14.4% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-solstice-today",
+      "companyId": "comp-solstice",
+      "companyName": "Solstice Skincare",
+      "track": "Health & Beauty Direct",
+      "period": "Today",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.988Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 5,
+      "averageEngagement": 516,
+      "engagementRate": 3.8,
+      "postingFrequency": "5 posts today",
+      "engagementGrowth": 16.8,
+      "audienceTotal": 78800,
+      "bestPost": {
+        "title": "Solstice Skincare Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "posts": 1
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "posts": 0
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "posts": 1
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-26",
+          "label": "4 PM",
+          "likes": 381,
+          "comments": 42,
+          "shares": 28,
+          "saves": 11,
+          "overallEngagement": 462
+        },
+        {
+          "date": "2026-09-26",
+          "label": "8 PM",
+          "likes": 334,
+          "comments": 78,
+          "shares": 17,
+          "saves": 29,
+          "overallEngagement": 458
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 AM",
+          "likes": 287,
+          "comments": 59,
+          "shares": 44,
+          "saves": 22,
+          "overallEngagement": 412
+        },
+        {
+          "date": "2026-09-27",
+          "label": "4 AM",
+          "likes": 240,
+          "comments": 40,
+          "shares": 33,
+          "saves": 15,
+          "overallEngagement": 328
+        },
+        {
+          "date": "2026-09-27",
+          "label": "8 AM",
+          "likes": 193,
+          "comments": 76,
+          "shares": 22,
+          "saves": 33,
+          "overallEngagement": 324
+        },
+        {
+          "date": "2026-09-27",
+          "label": "12 PM",
+          "likes": 466,
+          "comments": 57,
+          "shares": 49,
+          "saves": 26,
+          "overallEngagement": 598
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 1901,
+          "percentage": 74,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 352,
+          "percentage": 14,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 193,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 136,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Today interval, Solstice Skincare sustained an average engagement rate of 3.8% across 5 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +16.8% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-solstice-last week",
+      "companyId": "comp-solstice",
+      "companyName": "Solstice Skincare",
+      "track": "Health & Beauty Direct",
+      "period": "Last Week",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.989Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 26,
+      "averageEngagement": 121,
+      "engagementRate": 4.2,
+      "postingFrequency": "3.7 posts/day",
+      "engagementGrowth": 21.6,
+      "audienceTotal": 83600,
+      "bestPost": {
+        "title": "Solstice Skincare Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "posts": 4
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-21",
+          "label": "Mon",
+          "likes": 480,
+          "comments": 42,
+          "shares": 21,
+          "saves": 30,
+          "overallEngagement": 573
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Tue",
+          "likes": 433,
+          "comments": 78,
+          "shares": 48,
+          "saves": 23,
+          "overallEngagement": 582
+        },
+        {
+          "date": "2026-09-23",
+          "label": "Wed",
+          "likes": 386,
+          "comments": 59,
+          "shares": 37,
+          "saves": 16,
+          "overallEngagement": 498
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Thu",
+          "likes": 339,
+          "comments": 40,
+          "shares": 26,
+          "saves": 34,
+          "overallEngagement": 439
+        },
+        {
+          "date": "2026-09-25",
+          "label": "Fri",
+          "likes": 292,
+          "comments": 76,
+          "shares": 15,
+          "saves": 27,
+          "overallEngagement": 410
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Sat",
+          "likes": 245,
+          "comments": 57,
+          "shares": 42,
+          "saves": 20,
+          "overallEngagement": 364
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sun",
+          "likes": 198,
+          "comments": 38,
+          "shares": 31,
+          "saves": 13,
+          "overallEngagement": 280
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 2373,
+          "percentage": 75,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 390,
+          "percentage": 12,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 220,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 163,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Last Week interval, Solstice Skincare sustained an average engagement rate of 4.2% across 26 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +21.6% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-solstice-monthly",
+      "companyId": "comp-solstice",
+      "companyName": "Solstice Skincare",
+      "track": "Health & Beauty Direct",
+      "period": "Monthly",
+      "status": "live",
+      "collectedAt": "2026-09-27T10:33:52.990Z",
+      "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+      "totalPosts": 25,
+      "averageEngagement": 108,
+      "engagementRate": 4,
+      "postingFrequency": "0.8 posts/day",
+      "engagementGrowth": 19.2,
+      "audienceTotal": 81200,
+      "bestPost": {
+        "title": "Solstice Skincare Fall Collection Teaser & Product Breakdown",
+        "date": "Sep 24, 2026",
+        "platform": "Instagram",
+        "metricLabel": "Peak Engagement",
+        "metricValue": "842 Interactions · 6.2% Rate",
+        "engagement": 842
+      },
+      "lowestPost": {
+        "title": "Standard Product Restock Brief Update",
+        "date": "Sep 18, 2026",
+        "platform": "LinkedIn",
+        "metricLabel": "Low Engagement",
+        "metricValue": "112 Interactions · 1.4% Rate",
+        "engagement": 112
+      },
+      "postingFrequencyData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "posts": 5
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "posts": 2
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "posts": 4
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "posts": 6
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "posts": 3
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "posts": 5
+        }
+      ],
+      "engagementTrendsData": [
+        {
+          "date": "2026-09-02",
+          "label": "Sep 2",
+          "likes": 407,
+          "comments": 60,
+          "shares": 38,
+          "saves": 17,
+          "overallEngagement": 522
+        },
+        {
+          "date": "2026-09-07",
+          "label": "Sep 7",
+          "likes": 360,
+          "comments": 41,
+          "shares": 27,
+          "saves": 10,
+          "overallEngagement": 438
+        },
+        {
+          "date": "2026-09-12",
+          "label": "Sep 12",
+          "likes": 313,
+          "comments": 77,
+          "shares": 16,
+          "saves": 28,
+          "overallEngagement": 434
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Sep 17",
+          "likes": 266,
+          "comments": 58,
+          "shares": 43,
+          "saves": 21,
+          "overallEngagement": 388
+        },
+        {
+          "date": "2026-09-22",
+          "label": "Sep 22",
+          "likes": 219,
+          "comments": 39,
+          "shares": 32,
+          "saves": 14,
+          "overallEngagement": 304
+        },
+        {
+          "date": "2026-09-27",
+          "label": "Sep 27",
+          "likes": 492,
+          "comments": 75,
+          "shares": 21,
+          "saves": 32,
+          "overallEngagement": 620
+        }
+      ],
+      "engagementBreakdown": [
+        {
+          "metric": "Likes",
+          "count": 2057,
+          "percentage": 76,
+          "color": "#a855f7"
+        },
+        {
+          "metric": "Comments",
+          "count": 350,
+          "percentage": 13,
+          "color": "#6366f1"
+        },
+        {
+          "metric": "Shares",
+          "count": 177,
+          "percentage": 7,
+          "color": "#38bdf8"
+        },
+        {
+          "metric": "Saves",
+          "count": 122,
+          "percentage": 5,
+          "color": "#34d399"
+        }
+      ],
+      "summaryNarrative": "During the Monthly interval, Solstice Skincare sustained an average engagement rate of 4% across 25 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +19.2% net lift in audience retention."
+    },
+    {
+      "id": "an-comp-solstice-annual",
+      "companyId": "comp-solstice",
+      "companyName": "Solstice Skincare",
+      "track": "Health & Beauty Direct",
+      "period": "Annual",
+      "status": "unavailable",
+      "collectedAt": "2026-09-27T10:33:52.990Z",
+      "dataSourceInfo": "Public API telemetry offline or insufficient sampling points for this window.",
+      "totalPosts": null,
+      "averageEngagement": null,
+      "engagementRate": null,
+      "postingFrequency": null,
+      "engagementGrowth": null,
+      "audienceTotal": null,
+      "bestPost": null,
+      "lowestPost": null,
+      "postingFrequencyData": [],
+      "engagementTrendsData": [],
+      "engagementBreakdown": [],
+      "summaryNarrative": "No sufficient analytics records could be synchronized for this company in the selected timeframe."
+    }
+  ],
+  "savedReports": [
+    {
+      "id": "rep-seed-1",
+      "userId": "usr-default",
+      "userEmail": "denishraja011@gmail.com",
+      "companyId": "comp-optivaone",
+      "companyName": "OptivaOne",
+      "track": "Retail & Footwear",
+      "reportingPeriod": "Monthly",
+      "generatedAt": "Sep 26, 2026, 4:15 PM",
+      "version": "v1.4.0",
+      "reportData": {
+        "id": "an-comp-optivaone-monthly",
+        "companyId": "comp-optivaone",
+        "companyName": "OptivaOne",
+        "track": "Retail & Footwear",
+        "period": "Monthly",
+        "status": "live",
+        "collectedAt": "2026-09-27T10:33:52.978Z",
+        "dataSourceInfo": "Live Platform API Sync (Instagram Graph, Meta API, LinkedIn Enterprise)",
+        "totalPosts": 24,
+        "averageEngagement": 113,
+        "engagementRate": 5.2,
+        "postingFrequency": "0.8 posts/day",
+        "engagementGrowth": 9.6,
+        "audienceTotal": 71600,
+        "bestPost": {
+          "title": "OptivaOne Fall Collection Teaser & Product Breakdown",
+          "date": "Sep 24, 2026",
+          "platform": "Instagram",
+          "metricLabel": "Peak Engagement",
+          "metricValue": "842 Interactions · 6.2% Rate",
+          "engagement": 842
+        },
+        "lowestPost": {
+          "title": "Standard Product Restock Brief Update",
+          "date": "Sep 18, 2026",
+          "platform": "LinkedIn",
+          "metricLabel": "Low Engagement",
+          "metricValue": "112 Interactions · 1.4% Rate",
+          "engagement": 112
+        },
+        "postingFrequencyData": [
+          {
+            "date": "2026-09-02",
+            "label": "Sep 2",
+            "posts": 4
+          },
+          {
+            "date": "2026-09-07",
+            "label": "Sep 7",
+            "posts": 6
+          },
+          {
+            "date": "2026-09-12",
+            "label": "Sep 12",
+            "posts": 3
+          },
+          {
+            "date": "2026-09-17",
+            "label": "Sep 17",
+            "posts": 5
+          },
+          {
+            "date": "2026-09-22",
+            "label": "Sep 22",
+            "posts": 2
+          },
+          {
+            "date": "2026-09-27",
+            "label": "Sep 27",
+            "posts": 4
+          }
+        ],
+        "engagementTrendsData": [
+          {
+            "date": "2026-09-02",
+            "label": "Sep 2",
+            "likes": 303,
+            "comments": 43,
+            "shares": 36,
+            "saves": 18,
+            "overallEngagement": 400
+          },
+          {
+            "date": "2026-09-07",
+            "label": "Sep 7",
+            "likes": 256,
+            "comments": 24,
+            "shares": 25,
+            "saves": 11,
+            "overallEngagement": 316
+          },
+          {
+            "date": "2026-09-12",
+            "label": "Sep 12",
+            "likes": 209,
+            "comments": 60,
+            "shares": 52,
+            "saves": 29,
+            "overallEngagement": 350
+          },
+          {
+            "date": "2026-09-17",
+            "label": "Sep 17",
+            "likes": 482,
+            "comments": 41,
+            "shares": 41,
+            "saves": 22,
+            "overallEngagement": 586
+          },
+          {
+            "date": "2026-09-22",
+            "label": "Sep 22",
+            "likes": 435,
+            "comments": 77,
+            "shares": 30,
+            "saves": 15,
+            "overallEngagement": 557
+          },
+          {
+            "date": "2026-09-27",
+            "label": "Sep 27",
+            "likes": 388,
+            "comments": 58,
+            "shares": 19,
+            "saves": 33,
+            "overallEngagement": 498
+          }
+        ],
+        "engagementBreakdown": [
+          {
+            "metric": "Likes",
+            "count": 2073,
+            "percentage": 77,
+            "color": "#a855f7"
+          },
+          {
+            "metric": "Comments",
+            "count": 303,
+            "percentage": 11,
+            "color": "#6366f1"
+          },
+          {
+            "metric": "Shares",
+            "count": 203,
+            "percentage": 7,
+            "color": "#38bdf8"
+          },
+          {
+            "metric": "Saves",
+            "count": 128,
+            "percentage": 5,
+            "color": "#34d399"
+          }
+        ],
+        "summaryNarrative": "During the Monthly interval, OptivaOne sustained an average engagement rate of 5.2% across 24 verified content releases. Content performance skewed highest on visual storytelling and feature comparisons, driving a +9.6% net lift in audience retention."
+      },
+      "createdAt": "2026-09-26T16:15:00.000Z"
+    }
+  ]
+}

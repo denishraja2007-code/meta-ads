@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --radius: 0.875rem;
+  --background: oklch(14.5% 0.045 275);
+  --foreground: oklch(97% 0.01 280);
+  --card: oklch(19% 0.045 275 / 0.6);
+  --card-foreground: oklch(97% 0.01 280);
+  --popover: oklch(18% 0.045 275);
+  --popover-foreground: oklch(97% 0.01 280);
+  --primary: oklch(62% 0.24 295);
+  --primary-foreground: oklch(99% 0.005 280);
+  --primary-glow: oklch(72% 0.22 305);
+  --secondary: oklch(24% 0.05 275);
+  --secondary-foreground: oklch(97% 0.01 280);
+  --muted: oklch(22% 0.04 275);
+  --muted-foreground: oklch(68% 0.03 280);
+  --accent: oklch(30% 0.12 295);
+  --accent-foreground: oklch(97% 0.01 280);
+  --destructive: oklch(65% 0.22 25);
+  --destructive-foreground: oklch(99% 0.005 280);
+  --border: oklch(100% 0 0 / 0.08);
+  --input: oklch(100% 0 0 / 0.1);
+  --ring: oklch(62% 0.24 295);
+  --sidebar: oklch(16% 0.045 275);
+  --sidebar-foreground: oklch(85% 0.02 280);
+  --sidebar-accent: oklch(25% 0.08 290);
+  --sidebar-border: oklch(100% 0 0 / 0.06);
+  --gradient-primary: linear-gradient(135deg, oklch(62% 0.24 295), oklch(55% 0.24 265));
+  --gradient-hero: radial-gradient(ellipse at top, oklch(35% 0.2 290 / 0.5), transparent 60%), radial-gradient(ellipse at bottom left, oklch(30% 0.2 250 / 0.35), transparent 55%);
+  --shadow-glow: 0 0 60px -10px oklch(62% 0.24 295 / 0.5);
+  --shadow-card: 0 10px 40px -20px oklch(10% 0.05 275 / 0.8);
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: oklch(12% 0.04 275);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: oklch(28% 0.06 280);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: oklch(38% 0.08 285);
+  }
+}
+
+.glass-card {
+  background: var(--card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+}
+
+.bg-gradient-primary {
+  background-image: var(--gradient-primary);
+}
+
+.shadow-glow {
+  box-shadow: var(--shadow-glow);
+}
+
+.text-primary-glow {
+  color: var(--primary-glow);
+}
